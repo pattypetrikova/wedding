@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0 ;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.container {
+  margin: auto;
+}
+header {
+    background-color:rosybrown;
+}
+
+.header-block{
+   padding-top: 20px;
+   padding-bottom: 20px;
+    display: flex;
+    text-transform: uppercase;
+    max-width: 80%;
+    margin: auto;
+}
+
+.menu-block{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 22px;
+    align-items: center;
+}
+
+a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: gainsboro;
+}
+
+h2 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.main-block {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/src/img/thanh-duc-phan-qtBAR40B5D8-unsplash.jpg);;
+    width: 100%;
+    height: 800px;
+    background-size:cover;
+    background-position-y: center;
+
+    
+}
+
+.text-section {
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 35%;
+    color: rgb(219, 208, 219);
+    padding: 25px;
+    font-size: 18px ;
+
+}
+
+p {
+    line-height: 1.5;
+}
+
